@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #4CAF50;
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+}
+
+ol {
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input, select {
+    width: calc(100% - 150px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    margin-left: 20px;
+    width: auto;
+}
+
+input[type="radio"] {
+    margin-right: 20px auto; /* Added space between male and female options */
+}
+
+.interests-section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.interests-section p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.interests-container {
+    display: flex;
+    flex-direction: center;
+    gap: 10px;
+    padding: 25px auto;
+}
+
+.interest-item {
+    display: flex;
+    align-items: center;
+}
+
+.interest-item input {
+    margin-right: 10px;
+}
+
+.interest-item label {
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table-container {
+    max-height: 250px;
+    overflow-y: auto;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.enroll-button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+    background-color: #45a049;
+}
